@@ -1,933 +1,118 @@
 
-@media screen and (max-width: 384px) {
-  header .lm-navegation-morales {
-    width: 0;
-    height: 0;
-    display: none;
-  }
+@media screen and (max-width: 700px) {
 
-  header {
-    display: flex;
-    width: 100%;
-    height: 75px;
-    position: fixed;
-    z-index: 110;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-    background: linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.700),
-      rgba(0, 0, 0, 0.700)
-    );
-    backdrop-filter: blur(200px);
-    box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
-  }
-  header .navegador-phone {
-    background: transparent;
+  * {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .navegador-container-one {
-    background: transparent;
-    width: 25%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navegador-container-one img {
-    width: 60%;
-    height: 70%;
-    padding: 5px 5px  ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    background: transparent;
-    border: 1px solid red;
-  }
-
-  .navegador-container-two {
-    background: transparent;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    padding: 0px 0px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .container-two {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-  }
-  .container-two ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 0px 0px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-  }
-  .navegador-container-two li {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 0px 0px;
-    text-decoration: none;
-    list-style: none;
-    background: transparent;
-  }
-  .navegador-container-two li a {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    text-decoration: none;
-  }
-  .navegador-container-two li a span {
-    color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(8, 177, 255);
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 35px;
-    background: transparent;
-   
-  }
-  .navegador-container-two li a span:hover {
-    color: red;
-  }
-  .navegador-container-two li a:hover {
-    width: 100%;
-    height: 100%;
-    border-bottom: 2px solid red;
-  }
-  .navegador-container-thre {
-    background: transparent;
-    width: 25%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .boton-cotizar {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .boton-cotizar a {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    background: transparent;
-  }
-  .boton-cotizar a span {
-    color: rgb(255, 0, 0);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 45px;
-    background: transparent;
-    
-  }
-  .boton-cotizar a span:hover {
-    border-bottom: 2px solid red;
-  }
-
-  /*//////////---///////////////-----------------------------------------------------*/
-  main {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 6000px;
+    background: rgb(46, 46, 46);
   }
-  .container_first {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 12.5%;
-  }
-  .division {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  .division .contenedor_ul {
-    width: 300%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .division .contenedor_ul .contenedor_li {
-    width: 100%;
-    height: 100%;
-  }
-  .division .contenedor_ul .contenedor_li img{
-    width: 100%;
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+header{
+  display: flex;
+  background: hsl(0, 0%, 0%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 2000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(135deg,
+      rgba(100, 100, 100, 0.3),
+      rgba(100, 100, 100, 0.1));
+  backdrop-filter: blur(50px);
+  box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
   
-  }
-  .division .contenedor_ul .contenedor_li .titulos{
+.navegador-phone{
     width: 100%;
     height: 100%;
-    top: 0;
-    right: 200px;
-    left: -200px;
-    bottom: 200px;
-    position: relative;
-    
+    display: grid;
+    background: none;
+    grid-template-columns: repeat(3, 20% 65% 15%);
+    .NC1{
+      background: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img{
+        background: none;
+        border-radius: 100%;
+        width: 60%;
+        height: 80%;
+      }
+    }
+    .NC2{
+      background: none;
+      width: 100%;
+      height: 100%;
+      .NC2-CONTENEDOR{
+        background: none;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(1, 100%);
+        grid-template-columns: repeat(3, 33.3% 33.3% 33.3%);
+        & li {
+          background: none;
+          width: 100%;
+          height: 100%;
+          list-style: none;
+         
+          & a {
+            width: 100%;
+            height: 100%;
+            background: none;
+            color: greenyellow;
+            text-decoration: none;
+            & span{
+              background: none;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+    .NC3{
+      background: none;
+      width: 100%;
+      height: 100%;
+    .CT{
+      width: 100%;
+      height: 100%;
+      background: none;
+      & a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        background: none;
+        & span{
+          background: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: rgb(255, 255, 255);
+          font-size: 45px;
+        }
+      }
+    }
+    }
   }
-  .division .contenedor_ul .contenedor_li .titulos h1{
-   
-    width: 100%;
-    height: 50%;
-    font-size: 30px;
-    color: rgb(128, 98, 0);
-  
+.navegador-computer{
+    display: none;
   }
-  .division .contenedor_ul .contenedor_li .titulos h2 {
- 
-    width: 100%;
-    height: 50%;
-   font-size: 30px;
-   color: green;
-   
 }
-.division .contenedor_ul .contenedor_li .titulos p{
-  width: 0%;
-  height: 0%;
+main{
   display: none;
 }
 
-.division .contenedor_ul .contenedor_li .titulos_uno {
-  background: rgb(0, 255, 76);
-  display: none;
-  width: 0%;
-  height: 0%;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  bottom: 20px;
-  right: 200px;
-}
-.division .contenedor_ul .contenedor_li .titulos_uno h1 {
-  background: none;
-  width: 1200px;
-  height: 100px;
-  font-size: 110px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: absolute;
-  top: 150px;
-  right: -100px;
-}
-.division .contenedor_ul .contenedor_li .titulos_uno h2 {
-  background: none;
-  width: 1000px;
-  height: 100px;
-  font-size: 60px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  color: rgb(255, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: absolute;
-  top: 250px;
-  right: 0px;
-}
-    /*//////////---///////////////-----------------------------------------------------*/
-  .container_second {
-    width: 100%;
-    height: 87.5%;
-    flex-wrap: wrap;
-  }
-  /*//////////---///////////////-----------------------------------------------------*/
-  .SubContainer_first {
-    width: 100%;
-    height: 25%;
-  }
 
-  .cotainerUno {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: linear-gradient(
-        135deg,
-        rgba(0, 0, 0, 0.021),
-        rgba(0, 0, 0, 0.027)
-      ),
-      url(img/rojo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  .firstbox_subcontainer {
-    width: 100%;
-    height: 50%;
-    background: transparent;
-  }
-  .secondtbox_subcontainer {
-    width: 100%;
-    height: 50%;
-    background: transparent;
-  }
-  /*//////////---///////////////-----------------------------------------------------*/
-  .SubContainer_second {
-    width: 100%;
-    height: 16%;
-    display: flex;
-    align-items: center;
-  }
-  /* 
-  /////////**********-------------------------//////////////* */
-  .FONDO_VIDEO_LM_BOX {
-    width: 0;
-    height: 0;
-    display: none;
-  }
-   /* 
-  /////////**********-------------------------//////////////* */
-  .SERVICIES_LM_BOX {
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    padding: 110px 0;
-    margin-bottom: 65px;
-    margin-top: 0px;
-    background-image: url(img/contenedor2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 80;
-  }
-  .Container_tarjeta_servicios_one {
-    width: 100%;
-    height: 33.3%;
-    background: transparent;
-  }
-  .tarjeta_servicios_one {
-    width: 90%;
-    height: 80%;
-    box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(80px);
-  }
-  .tarjeta_servicios_one:hover {
-    width: 90%;
-    height: 80%;
-  }
-/*---------EN ESTA PARTE  ES LA IMG DEL SERVICIO-----------*/
-  .servicio-uno {
-    width: 100%;
-    height: 100%;
-  }     
-  .servicio-uno img{
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-  }
-/*---------EN ESTA PARTE ESTA EL TITULO DEL SERVICIO-----------*/
-  .servicio-dos {
-    background: transparent;
-    flex-direction: column;
-    width: 100%;
-    height: 25%;
-    top: 10px;
-  }
-  .titulo_uno  {
-    width: 40%;
-    height: 100%;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 0px;
-    margin-top: 80px;
-  }
-  .titulo_uno  h1 {
-    color: rgb(255, 0, 0);
-    font-size: 25px;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-  }
-  .titulo_dos{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-  }
-  .titulo_dos h1 {
-    color: rgb(255, 0, 0);
-    font-size: 40px;
-    letter-spacing: 2px;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-  }
-   /*---------INIT DE LA SEGUNDA SECTION DE LA TARJETA PARTE TWO-----------*/
-  .servicio-tres {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-  .servicio-cuatro{
-    position: absolute;
-    background: transparent;
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-  .servicio-btn button {
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-  }
-   /* 
-  /////////**********------------------//////////////////////////////-------------------//////////////* */
-  .Container_tarjeta_servicios_one_secundario {
-    width: 90%;
-    height: 70%;
-  }
-  .caja-servicio-uno-secundario {
-    width: 100%;
-    height: 100%;
-  }
-  .ventana-clasica {
-    background: transparent;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    background:greenyellow;
-  }
-  .ventana-clasica h1 {
-    width: 90%;
-    height: 100%;
-    margin-right: 80px;
-    font-size: 15px;
-    color: white;
-    background: red;
-  }
-  .ventana-clasica button {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
 
-  .ventana-clasica button span {
-    background: transparent;
-    font-size: 25px;
-    color: white;
-  }
-  .info-servicio-clasica {
-    background: transparent;
-    width: 100%;
-    height: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .informacion-clasica {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-  }
-  .informacion-texto {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-    background: transparent;
-  }
-  .informacion-texto h1 {
-    color: rgb(255, 255, 255);
-    background: transparent;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-  }
-  .informacion-texto p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 80%;
-    background: transparent;
-  }
-  .informacion-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    height: 100%;
-  }
-  .informacion-img img {
-    width: 100%;
-    height: 100%;
-  }
-  /* esto es para los servicios */
-  .servicios-clasica {
-    background: transparent;
-    width: 100%;
-    height: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-  }
-  .transporte-info {
-    width: 33.33%;
-    height: 100%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: transparent;
-  }
-  .transporte-info h1,
-  p {
-    color: white;
-    background: transparent;
-  }
-  .carga-info {
-    width: 33.33%;
-    height: 100%;
-    background: transparent;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .carga-info h2 {
-    color: aqua;
-    font-size: 20px;
-  }
-  .carga-info p {
-    color: white;
-    background: transparent;
-  }
-  .embalaje-info {
-    width: 33.33%;
-    height: 100%;
-    background: transparent;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .embalaje-info h1,
-  p {
-    color: white;
-    background: transparent;
-  }
-  .show {
-    display: flex;
-  }
-   /* 
-  /////////**********------------------//////////////////////////////-------------------//////////////* */
-  .Container_tarjeta_servicios_two {
-    width: 100%;
-    height: 33.3%;
-  }
-  .tarjeta_servicios_two {
-    width: 90%;
-    height: 80%;
-    box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(80px);
-  }
-
-  .servicio-uno-uno {
-    width: 100%;
-    height: 100%;
-  }     
-  .servicio-uno-uno img{
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-  }
-  /*---------INIT DE LA SEGUNDA SECTION DE LA TARJETA PARTE TWO-----------*/
-/*---------EN ESTA PARTE ESTA EL TITULO DEL SERVICIO-----------*/
-  .servicio-uno-dos {
-    background: transparent;
-    flex-direction: column;
-    width: 100%;
-    height: 25%;
-    top: 10px;
-  }
-  .titulo-uno-uno {
-    width: 40%;
-    height: 100%;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 0px;
-    margin-top: 80px;
-  }
-  .titulo-uno-uno  h1 {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-  }
-  .titulo-uno-dos{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-  }
-  .titulo-uno-dos h1 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    letter-spacing: 2px;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-  }
-   /*---------INIT DE LA SEGUNDA SECTION DE LA TARJETA PARTE TWO-----------*/
-/*---------EN ESTA PARTE ESTA EL TITULO DEL SERVICIO-----------*/
-  .servicio-uno-tres {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-  .servicio-uno-cuatro{
-    position: absolute;
-    background: transparent;
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-  .servicio_tres button {
-    background: none;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-  }
-   /* 
-  //////////--------------------/////////////////////////////////////////------------------------------------ */
-  .servicio_tres {
-    width: 100%;
-    height: 100%;
-    background: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(0);
-    margin-top: -10px;
-  }
-  .servicio_tres button {
-    background: none;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-  }
-    /* 
-  /////////**********------------------//////////////////////////////-------------------//////////////* */
-  .Container_tarjeta_servicios_one_secundario {
-    width: 90%;
-    height: 70%;
-  }
-  .caja-servicio_uno_secundario {
-    width: 100%;
-    height: 100%;
-  }
-  .ventana-clasica {
-    background: transparent;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    align-items: center;
-    flex-direction: row;
-  }
-  .ventana-clasica h1 {
-    width: 90%;
-    height: 100%;
-    font-size: 15px;
-    color: white;
-  }
-  .ventana-clasica button {
-    display: flex;
-    width: 10%;
-    height: 100%;
-  }
-
-  .ventana-clasica button span {
-    background: transparent;
-    font-size: 25px;
-    color: white;
-  }
-  .info-servicio-clasica {
-    background: transparent;
-    width: 100%;
-    height: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .informacion-clasica {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-  }
-  .informacion-texto {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-    background: transparent;
-  }
-  .informacion-texto h1 {
-    color: rgb(255, 255, 255);
-    background: transparent;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-  }
-  .informacion-texto p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 80%;
-    background: transparent;
-  }
-  .informacion-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    height: 100%;
-  }
-  .informacion-img img {
-    width: 100%;
-    height: 100%;
-  }
-  /* esto es para los servicios */
-  .servicios-clasica {
-    background: transparent;
-    width: 100%;
-    height: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-  }
-  .transporte-info {
-    width: 33.33%;
-    height: 100%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: transparent;
-  }
-  .transporte-info h1,
-  p {
-    color: white;
-    background: transparent;
-  }
-  .carga-info {
-    width: 33.33%;
-    height: 100%;
-    background: transparent;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .carga-info h2 {
-    color: aqua;
-    font-size: 20px;
-  }
-  .carga-info p {
-    color: white;
-    background: transparent;
-  }
-  .embalaje-info {
-    width: 33.33%;
-    height: 100%;
-    background: transparent;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .embalaje-info h1,p {
-    color: white;
-    background: transparent;
-  }
-  .show {
-    display: flex;
-  }
-   /* 
-  /////////**********------------------//////////////////////////////-------------------//////////////* */
-   /* 
-  //////////--------------------/////////////////////////////////////////------------------------------------ */
-  .Container_tarjeta_servicios_thre {
-    width: 100%;
-    height: 33.3%;
-  }
-  .tarjeta_servicios_thre {
-    width: 90%;
-    height: 80%;
-    box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(80px);
-  }
-  /* 
-  //////////--------------------/////////////////////////////////////////------------------------------------ */
-
-  .servicio-dos-uno {
-    width: 100%;
-    height: 100%;
-  }     
-  .servicio-dos-uno img{
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-  }
- /* 
-  //////////--------------------/////////////////////////////////////////------------------------------------ */
-  .servicio-dos-dos {
-    background: transparent;
-    flex-direction: column;
-    width: 100%;
-    height: 25%;
-    top: 10px;
-  }
-  .titulo-dos-uno {
-    width: 40%;
-    height: 100%;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 0px;
-    margin-top: 80px;
-  }
-  .titulo-dos-uno  h1 {
-    color: rgb(255, 0, 0);
-    font-size: 25px;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-  }
-  .titulo-dos-dos{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-  }
-  .titulo-dos-dos h1 {
-    color: rgb(255, 0, 0);
-    font-size: 40px;
-    letter-spacing: 2px;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-  }
- /* 
-  //////////--------------------/////////////////////////////////////////------------------------------------ */
-  .servicio-dos-tres {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-  .servicio-dos-cuatro{
-    position: absolute;
-    background: transparent;
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-  .servicio_tres button {
-    background: none;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    border: none;
-  }
-
-   /* 
-  //////////--------------------/////////////////////////////////////////------------------------------------ */
-  .SubContainer_thir {
-    width: 100%;
-    height: 30%;
-  }
-  .SubContainer_four {
-    width: 100%;
-    height: 30%;
-  }
 }
