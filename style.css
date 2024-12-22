@@ -240,7 +240,7 @@ main {
   grid-template-rows: 3000px;
   grid-template-columns: repeat(3, 15% 70% 15%);
 
-.CONTENEDOR-LM-01 {
+  .CONTENEDOR-LM-01 {
     background: none;
     z-index: 1000;
     display: grid;
@@ -281,6 +281,7 @@ main {
 
           .sc1-1 {
             background: rgb(3, 224, 40);
+
             & a {
               display: flex;
               background: rgb(13, 255, 5);

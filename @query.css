@@ -123,8 +123,12 @@ grid-template-columns: repeat(1, 100%);
   display: none;
  }
  .CONTENEDOR-LM-02{
+  background: none;
   width: 100%;
   height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(6, 20% 20% 20% 20% 20% 20%);
  }
  .CONTENEDOR-LM-03{
   display: none;
