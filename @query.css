@@ -1,139 +1,178 @@
-
 @media screen and (max-width: 700px) {
+
 
   * {
     width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    height: 100% box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     background: rgb(14, 14, 14);
   }
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-header{
-  display: flex;
-  background: hsl(0, 0%, 0%);
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  z-index: 2000;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-  background: linear-gradient(135deg,
-      rgba(49, 49, 49, 0.3),
-      rgba(31, 31, 31, 0.1));
-  backdrop-filter: blur(80px);
-  box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
-  
-.navegador-phone{
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  header {
+    display: flex;
+    background: hsl(0, 0%, 0%);
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 100%;
-    display: grid;
-    background: none;
-    grid-template-columns: repeat(3, 20% 65% 15%);
-    .NC1{
-      background: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-      img{
-        background: none;
-        border-radius: 100%;
-        width: 60%;
-        height: 80%;
-      }
-    }
-    .NC2{
-      background: none;
+    height: 60px;
+    position: fixed;
+    z-index: 2000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    background: linear-gradient(135deg,
+        rgba(49, 49, 49, 0.3),
+        rgba(31, 31, 31, 0.1));
+    backdrop-filter: blur(80px);
+    box-shadow: 0 0px 32px 10px rgba(0, 0, 0, 0.5);
+
+    .navegador-phone {
       width: 100%;
       height: 100%;
-      .NC2-CONTENEDOR{
+      display: grid;
+      background: none;
+      grid-template-columns: repeat(3, 20% 65% 15%);
+
+      .NC1 {
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          background: none;
+          border-radius: 100%;
+          width: 60%;
+          height: 80%;
+        }
+      }
+
+      .NC2 {
         background: none;
         width: 100%;
         height: 100%;
-        display: grid;
-        grid-template-rows: repeat(1, 100%);
-        grid-template-columns: repeat(3, 33.3% 33.3% 33.3%);
-        & li {
+
+        .NC2-CONTENEDOR {
           background: none;
           width: 100%;
           height: 100%;
-          list-style: none;
-         
+          display: grid;
+          grid-template-rows: repeat(1, 100%);
+          grid-template-columns: repeat(3, 33.3% 33.3% 33.3%);
+
+          & li {
+            background: none;
+            width: 100%;
+            height: 100%;
+            list-style: none;
+
+            & a {
+              width: 100%;
+              height: 100%;
+              background: none;
+              color: greenyellow;
+              text-decoration: none;
+
+              & span {
+                background: none;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+
+      .NC3 {
+        background: none;
+        width: 100%;
+        height: 100%;
+
+        .CT {
+          width: 100%;
+          height: 100%;
+          background: none;
+
           & a {
+            text-decoration: none;
             width: 100%;
             height: 100%;
             background: none;
-            color: greenyellow;
-            text-decoration: none;
-            & span{
+
+            & span {
               background: none;
-              width: 100%;
-              height: 100%;
               display: flex;
               justify-content: center;
               align-items: center;
+              color: rgb(255, 255, 255);
+              font-size: 45px;
             }
           }
         }
       }
     }
-    .NC3{
+
+    .navegador-computer {
+      display: none;
+    }
+  }
+
+  main {
+    width: 100%;
+    height: 5000px;
+    background: linear-gradient(135deg,
+        rgba(100, 100, 100, 0.3),
+        rgba(31, 31, 31, 0.1));
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: 3000px;
+    grid-template-columns: repeat(1, 100%);
+
+    .CONTENEDOR-LM-01 {
+      display: none;
+    }
+
+    .CONTENEDOR-LM-02 {
       background: none;
       width: 100%;
       height: 100%;
-    .CT{
-      width: 100%;
-      height: 100%;
-      background: none;
-      & a {
-        text-decoration: none;
+      display: grid;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(6, 20% 20% 20% 20% 20% 20%);
+
+      .lm-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
         background: none;
-        & span{
-          background: none;
+
+        .lm-post1 {
           display: flex;
           justify-content: center;
           align-items: center;
-          color: rgb(255, 255, 255);
-          font-size: 45px;
+          margin-top: 30%;
+          width: 95%;
+          height: 90%;
+          background: rgb(128, 0, 255);
+        }
+        .lm-post2{
+          display: none;
         }
       }
     }
+
+    .CONTENEDOR-LM-03 {
+      display: none;
     }
   }
-.navegador-computer{
-    display: none;
-  }
-}
-main{
-  background: linear-gradient(135deg,
-  rgba(100, 100, 100, 0.3),
-  rgba(31, 31, 31, 0.1));
-z-index: 10;
-background-repeat: no-repeat;
-background-attachment: fixed;
-display: grid;
-grid-template-rows: 3000px;
-grid-template-columns: repeat(1, 100%);
- .CONTENEDOR-LM-01{
-  display: none;
- }
- .CONTENEDOR-LM-02{
-  background: none;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(1, 100%);
-  grid-template-rows: repeat(6, 20% 20% 20% 20% 20% 20%);
- }
- .CONTENEDOR-LM-03{
-  display: none;
- }
-}
 
 
 
